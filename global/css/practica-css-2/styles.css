@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+body {
+    background-color: bisque;
+}
+.nav-container {
+
+}
+.nav-list { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: burlywood;
+}
+.nav-item {
+    background-color: aquamarine;
+    padding: 4px;
+    border-radius: 3px;
+}
+.nav-item a{
+    color: black;
+    font-size: 40px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.products-container {
+    background-color: rgb(199, 199, 135);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+
+}
+.products { 
+
+
+}
+.footer {
+    background-color: bisque;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    width: 800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70% 30%;
+    gap: 10px;
+    align-items: center;
+    justify-items: center
+}
+.azul {
+    background-color: blue;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.amarillo {
+    background-color: yellow;  
+}
+.rojo {
+    background-color: red;
+}
+.verde {
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 200px;
+    max-height: 200px;
+}
+.grid {
+}
+/*Diseño de la pagina de Contacto*/
+ .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 100vh;
+    border: 2px solid black;
+ }
+ .contact-form {
+    background-color: rgb(114, 93, 67);
+    padding: 50px;
+    border-radius: 5px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .form-division label {
+    font-size: 25px; 
+    display: flex; 
+    justify-content: center;
+ }
+ .form-division input {
+    padding: 3px; 
+    font-size: 20px;
+    border-radius: 5px; 
+    border: 1px solid black;
+ }
+ .textarea-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+.textarea{ 
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 50px;
+    border-radius: 15px;
+}
+.textarea-button { 
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 2px solid red;
+    background-color: aqua;
+
+}
+/*position*/

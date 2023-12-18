@@ -1,0 +1,25 @@
+body { 
+    background-color: blanchedalmond;
+}
+div{
+    height: 100px;
+    width: 100px;
+}
+.rojo {
+    background-color: red;
+    position: relative; 
+    z-index: 1;
+}
+.azul {
+    background-color: blue;
+    position: relative;
+    bottom: 100px;
+    z-index: 2;
+
+}
+.verde {
+    background-color: green;
+}
+.amarillo {
+    background-color: yellow; 
+}
